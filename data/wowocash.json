@@ -1,0 +1,588 @@
+{
+  "users": {
+    "343653754845003777": {
+      "id": "343653754845003777",
+      "username": "Direktur Utama VOID",
+      "balance": 999277718,
+      "lifetime": 38417,
+      "transactions": [
+        {
+          "amount": 35,
+          "note": "Hourly reward",
+          "ts": "2026-02-22 13:04 UTC"
+        },
+        {
+          "amount": -48,
+          "note": "Ketahuan merampok kyo (denda)",
+          "ts": "2026-02-22 13:01 UTC"
+        },
+        {
+          "amount": -525000,
+          "note": "Transfer ke kenzolikemoon (fee 25000)",
+          "ts": "2026-02-22 13:00 UTC"
+        },
+        {
+          "amount": -5000,
+          "note": "Number guess lose",
+          "ts": "2026-02-22 12:59 UTC"
+        },
+        {
+          "amount": 120,
+          "note": "Misi harian selesai: Penjudi Harian",
+          "ts": "2026-02-22 12:59 UTC"
+        },
+        {
+          "amount": 25000,
+          "note": "Dice: menang (roll 3)",
+          "ts": "2026-02-22 12:59 UTC"
+        },
+        {
+          "amount": 300,
+          "note": "Gacha: 300 WowoCash",
+          "ts": "2026-02-22 12:58 UTC"
+        },
+        {
+          "amount": -150,
+          "note": "Gacha x1",
+          "ts": "2026-02-22 12:58 UTC"
+        },
+        {
+          "amount": 100,
+          "note": "Gacha: 100 WowoCash",
+          "ts": "2026-02-22 12:57 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:57 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:57 UTC"
+        },
+        {
+          "amount": 100,
+          "note": "Gacha: 100 WowoCash",
+          "ts": "2026-02-22 12:57 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:57 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:57 UTC"
+        },
+        {
+          "amount": 700,
+          "note": "Gacha: 700 WowoCash",
+          "ts": "2026-02-22 12:57 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:57 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:57 UTC"
+        },
+        {
+          "amount": -1500,
+          "note": "Gacha x10",
+          "ts": "2026-02-22 12:57 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Misi harian selesai: Pekerja Keras",
+          "ts": "2026-02-22 12:56 UTC"
+        },
+        {
+          "amount": 162,
+          "note": "Kerja sebagai Dokter",
+          "ts": "2026-02-22 12:56 UTC"
+        },
+        {
+          "amount": -5000,
+          "note": "Slots lose x0",
+          "ts": "2026-02-22 12:56 UTC"
+        },
+        {
+          "amount": -5000,
+          "note": "Coin flip: kalah 5,000",
+          "ts": "2026-02-22 12:55 UTC"
+        },
+        {
+          "amount": -105000,
+          "note": "Transfer ke kyo (fee 5000)",
+          "ts": "2026-02-22 12:31 UTC"
+        },
+        {
+          "amount": 300,
+          "note": "Gacha: 300 WowoCash",
+          "ts": "2026-02-22 12:29 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:29 UTC"
+        },
+        {
+          "amount": 100,
+          "note": "Gacha: 100 WowoCash",
+          "ts": "2026-02-22 12:29 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:29 UTC"
+        },
+        {
+          "amount": 700,
+          "note": "Gacha: 700 WowoCash",
+          "ts": "2026-02-22 12:29 UTC"
+        },
+        {
+          "amount": 100,
+          "note": "Gacha: 100 WowoCash",
+          "ts": "2026-02-22 12:29 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:29 UTC"
+        }
+      ],
+      "inventory": {
+        "role_hint": 5,
+        "gacha_ticket": 5
+      },
+      "daily": {
+        "last_claim": "2026-02-22",
+        "streak": 1
+      },
+      "gacha": {
+        "total_pulls": 72,
+        "pity_sr": 1,
+        "pity_ssr": 46,
+        "lucky_charm": 0
+      },
+      "missions": {
+        "daily": {
+          "2026-02-22": {
+            "play_1": 0,
+            "survive_1": 0,
+            "win_1": 0,
+            "vote_3": 0,
+            "login": 1,
+            "casino_3": 3,
+            "work_1": 1
+          }
+        },
+        "weekly": {
+          "2026-W08": {
+            "w_play_5": 0,
+            "w_win_3": 0,
+            "w_gacha_3": 3,
+            "w_transfer": 1,
+            "w_casino_10": 4,
+            "w_work_5": 1
+          }
+        }
+      },
+      "stats": {
+        "games_played": 0,
+        "games_won": 0,
+        "games_survived": 0,
+        "votes_cast": 0,
+        "transfers_sent": 3,
+        "gacha_pulls": 72
+      },
+      "cooldowns": {
+        "work": "2026-02-22T12:56:53.135172",
+        "rob": "2026-02-22T13:01:46.246069",
+        "hourly": "2026-02-22T13:04:04.494507"
+      }
+    },
+    "698150864279437353": {
+      "id": "698150864279437353",
+      "username": "havoise",
+      "balance": 100700,
+      "lifetime": 134600,
+      "transactions": [
+        {
+          "amount": 100,
+          "note": "Gacha: 100 WowoCash",
+          "ts": "2026-02-22 12:31 UTC"
+        },
+        {
+          "amount": -150,
+          "note": "Gacha x1",
+          "ts": "2026-02-22 12:31 UTC"
+        },
+        {
+          "amount": 100,
+          "note": "Gacha: 100 WowoCash",
+          "ts": "2026-02-22 12:31 UTC"
+        },
+        {
+          "amount": -150,
+          "note": "Gacha x1",
+          "ts": "2026-02-22 12:31 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:31 UTC"
+        },
+        {
+          "amount": -150,
+          "note": "Gacha x1",
+          "ts": "2026-02-22 12:31 UTC"
+        },
+        {
+          "amount": 300,
+          "note": "Gacha: 300 WowoCash",
+          "ts": "2026-02-22 12:31 UTC"
+        },
+        {
+          "amount": -150,
+          "note": "Gacha x1",
+          "ts": "2026-02-22 12:31 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": -150,
+          "note": "Gacha x1",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": -150,
+          "note": "Gacha x1",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": 300,
+          "note": "Gacha: 300 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": 300,
+          "note": "Gacha: 300 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": 100,
+          "note": "Gacha: 100 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": -1500,
+          "note": "Gacha x10",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": 300,
+          "note": "Gacha: 300 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": 100,
+          "note": "Gacha: 100 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Gacha: 50 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": 100,
+          "note": "Gacha: 100 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": -1500,
+          "note": "Gacha x10",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": 300,
+          "note": "Gacha: 300 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        },
+        {
+          "amount": 100,
+          "note": "Gacha: 100 WowoCash",
+          "ts": "2026-02-22 12:30 UTC"
+        }
+      ],
+      "inventory": {
+        "gacha_ticket": 22,
+        "role_hint": 10,
+        "double_vote": 6,
+        "shield": 1,
+        "vip_badge": 1
+      },
+      "daily": {
+        "last_claim": "2026-02-22",
+        "streak": 1
+      },
+      "gacha": {
+        "total_pulls": 227,
+        "pity_sr": 8,
+        "pity_ssr": 58,
+        "lucky_charm": 0
+      },
+      "missions": {
+        "daily": {
+          "2026-02-22": {
+            "play_1": 0,
+            "survive_1": 0,
+            "win_1": 0,
+            "vote_3": 0,
+            "login": 1
+          }
+        },
+        "weekly": {
+          "2026-W08": {
+            "w_play_5": 0,
+            "w_win_3": 0,
+            "w_gacha_3": 3,
+            "w_transfer": 0
+          }
+        }
+      },
+      "stats": {
+        "games_played": 0,
+        "games_won": 0,
+        "games_survived": 0,
+        "votes_cast": 0,
+        "transfers_sent": 0,
+        "gacha_pulls": 227
+      }
+    },
+    "994550049428213841": {
+      "id": "994550049428213841",
+      "username": "gregory",
+      "balance": 0,
+      "lifetime": 0,
+      "transactions": [],
+      "inventory": {},
+      "daily": {
+        "last_claim": null,
+        "streak": 0
+      },
+      "gacha": {
+        "total_pulls": 0,
+        "pity_sr": 0,
+        "pity_ssr": 0,
+        "lucky_charm": 0
+      },
+      "missions": {
+        "daily": {},
+        "weekly": {}
+      },
+      "stats": {
+        "games_played": 0,
+        "games_won": 0,
+        "games_survived": 0,
+        "votes_cast": 0,
+        "transfers_sent": 0,
+        "gacha_pulls": 0
+      }
+    },
+    "1079996354509688882": {
+      "id": "1079996354509688882",
+      "username": "kenzolikemoon",
+      "balance": 500101,
+      "lifetime": 500185,
+      "transactions": [
+        {
+          "amount": -84,
+          "note": "Ketahuan merampok kyo (denda)",
+          "ts": "2026-02-22 13:02 UTC"
+        },
+        {
+          "amount": 500000,
+          "note": "Diterima dari Direktur Utama VOID",
+          "ts": "2026-02-22 13:00 UTC"
+        },
+        {
+          "amount": 35,
+          "note": "Hourly reward",
+          "ts": "2026-02-22 13:00 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Misi harian selesai: Login Harian",
+          "ts": "2026-02-22 13:00 UTC"
+        },
+        {
+          "amount": 100,
+          "note": "Daily login (streak 1)",
+          "ts": "2026-02-22 13:00 UTC"
+        }
+      ],
+      "inventory": {},
+      "daily": {
+        "last_claim": "2026-02-22",
+        "streak": 1
+      },
+      "gacha": {
+        "total_pulls": 0,
+        "pity_sr": 0,
+        "pity_ssr": 0,
+        "lucky_charm": 0
+      },
+      "missions": {
+        "daily": {
+          "2026-02-22": {
+            "play_1": 0,
+            "survive_1": 0,
+            "win_1": 0,
+            "vote_3": 0,
+            "login": 1,
+            "casino_3": 0,
+            "work_1": 0
+          }
+        },
+        "weekly": {
+          "2026-W08": {
+            "w_play_5": 0,
+            "w_win_3": 0,
+            "w_gacha_3": 0,
+            "w_transfer": 0,
+            "w_casino_10": 0,
+            "w_work_5": 0,
+            "w_rob_3": 0
+          }
+        }
+      },
+      "stats": {
+        "games_played": 0,
+        "games_won": 0,
+        "games_survived": 0,
+        "votes_cast": 0,
+        "transfers_sent": 0,
+        "gacha_pulls": 0
+      },
+      "cooldowns": {
+        "hourly": "2026-02-22T13:00:47.977895",
+        "rob": "2026-02-22T13:02:43.497230"
+      }
+    },
+    "924681030764474440": {
+      "id": "924681030764474440",
+      "username": "kyo",
+      "balance": 100150,
+      "lifetime": 100150,
+      "transactions": [
+        {
+          "amount": 100000,
+          "note": "Diterima dari Direktur Utama VOID",
+          "ts": "2026-02-22 12:31 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Misi harian selesai: Login Harian",
+          "ts": "2026-02-22 12:29 UTC"
+        },
+        {
+          "amount": 100,
+          "note": "Daily login (streak 1)",
+          "ts": "2026-02-22 12:29 UTC"
+        }
+      ],
+      "inventory": {},
+      "daily": {
+        "last_claim": "2026-02-22",
+        "streak": 1
+      },
+      "gacha": {
+        "total_pulls": 0,
+        "pity_sr": 0,
+        "pity_ssr": 0,
+        "lucky_charm": 0
+      },
+      "missions": {
+        "daily": {
+          "2026-02-22": {
+            "play_1": 0,
+            "survive_1": 0,
+            "win_1": 0,
+            "vote_3": 0,
+            "login": 1
+          }
+        },
+        "weekly": {
+          "2026-W08": {
+            "w_play_5": 0,
+            "w_win_3": 0,
+            "w_gacha_3": 0,
+            "w_transfer": 0
+          }
+        }
+      },
+      "stats": {
+        "games_played": 0,
+        "games_won": 0,
+        "games_survived": 0,
+        "votes_cast": 0,
+        "transfers_sent": 0,
+        "gacha_pulls": 0
+      }
+    }
+  },
+  "meta": {
+    "version": 1
+  }
+}
