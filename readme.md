@@ -1,4 +1,3 @@
-Siap 👍 Ini contoh **README.md** yang bisa kamu pakai untuk project **AryacahilBOT** kamu. Tinggal copy dan sesuaikan bagian yang perlu (prefix, fitur, dll).
 
 ---
 
