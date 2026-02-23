@@ -3,9 +3,119 @@
     "343653754845003777": {
       "id": "343653754845003777",
       "username": "Direktur Utama VOID",
-      "balance": 999277718,
-      "lifetime": 38417,
+      "balance": 991914493,
+      "lifetime": 40212,
       "transactions": [
+        {
+          "amount": -5000,
+          "note": "Russian Roulette bet",
+          "ts": "2026-02-23 17:11 UTC"
+        },
+        {
+          "amount": -1050000,
+          "note": "Transfer ke ..rαrα :‹ (fee 50000)",
+          "ts": "2026-02-23 17:09 UTC"
+        },
+        {
+          "amount": -3150000,
+          "note": "Transfer ke gregory (fee 150000)",
+          "ts": "2026-02-23 17:03 UTC"
+        },
+        {
+          "amount": -10,
+          "note": "Russian Roulette bet",
+          "ts": "2026-02-23 16:53 UTC"
+        },
+        {
+          "amount": -10,
+          "note": "Russian Roulette bet",
+          "ts": "2026-02-23 16:50 UTC"
+        },
+        {
+          "amount": -1050000,
+          "note": "Transfer ke kao solo sisen (fee 50000)",
+          "ts": "2026-02-23 16:50 UTC"
+        },
+        {
+          "amount": -1050000,
+          "note": "Transfer ke Vanjii (fee 50000)",
+          "ts": "2026-02-23 16:50 UTC"
+        },
+        {
+          "amount": 80,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:41 UTC"
+        },
+        {
+          "amount": 500,
+          "note": "Misi mingguan selesai: Petualang Mingguan",
+          "ts": "2026-02-23 16:37 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:37 UTC"
+        },
+        {
+          "amount": -5000,
+          "note": "Blackjack bet 5,000",
+          "ts": "2026-02-23 16:32 UTC"
+        },
+        {
+          "amount": -5000,
+          "note": "Coin flip: kalah 5,000",
+          "ts": "2026-02-23 16:32 UTC"
+        },
+        {
+          "amount": 200,
+          "note": "Misi mingguan selesai: Dermawan",
+          "ts": "2026-02-23 16:30 UTC"
+        },
+        {
+          "amount": -1050000,
+          "note": "Transfer ke aevlynn (fee 50000)",
+          "ts": "2026-02-23 16:30 UTC"
+        },
+        {
+          "amount": 150,
+          "note": "Misi harian selesai: Menang!",
+          "ts": "2026-02-23 16:28 UTC"
+        },
+        {
+          "amount": 275,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:28 UTC"
+        },
+        {
+          "amount": 125,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:24 UTC"
+        },
+        {
+          "amount": 60,
+          "note": "Misi harian selesai: Suara Rakyat",
+          "ts": "2026-02-23 16:23 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:21 UTC"
+        },
+        {
+          "amount": 100,
+          "note": "Misi harian selesai: Survivor",
+          "ts": "2026-02-23 16:17 UTC"
+        },
+        {
+          "amount": 80,
+          "note": "Misi harian selesai: Pemain Aktif",
+          "ts": "2026-02-23 16:17 UTC"
+        },
+        {
+          "amount": 125,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:17 UTC"
+        },
         {
           "amount": 35,
           "note": "Hourly reward",
@@ -45,116 +155,6 @@
           "amount": -150,
           "note": "Gacha x1",
           "ts": "2026-02-22 12:58 UTC"
-        },
-        {
-          "amount": 100,
-          "note": "Gacha: 100 WowoCash",
-          "ts": "2026-02-22 12:57 UTC"
-        },
-        {
-          "amount": 50,
-          "note": "Gacha: 50 WowoCash",
-          "ts": "2026-02-22 12:57 UTC"
-        },
-        {
-          "amount": 50,
-          "note": "Gacha: 50 WowoCash",
-          "ts": "2026-02-22 12:57 UTC"
-        },
-        {
-          "amount": 100,
-          "note": "Gacha: 100 WowoCash",
-          "ts": "2026-02-22 12:57 UTC"
-        },
-        {
-          "amount": 50,
-          "note": "Gacha: 50 WowoCash",
-          "ts": "2026-02-22 12:57 UTC"
-        },
-        {
-          "amount": 50,
-          "note": "Gacha: 50 WowoCash",
-          "ts": "2026-02-22 12:57 UTC"
-        },
-        {
-          "amount": 700,
-          "note": "Gacha: 700 WowoCash",
-          "ts": "2026-02-22 12:57 UTC"
-        },
-        {
-          "amount": 50,
-          "note": "Gacha: 50 WowoCash",
-          "ts": "2026-02-22 12:57 UTC"
-        },
-        {
-          "amount": 50,
-          "note": "Gacha: 50 WowoCash",
-          "ts": "2026-02-22 12:57 UTC"
-        },
-        {
-          "amount": -1500,
-          "note": "Gacha x10",
-          "ts": "2026-02-22 12:57 UTC"
-        },
-        {
-          "amount": 50,
-          "note": "Misi harian selesai: Pekerja Keras",
-          "ts": "2026-02-22 12:56 UTC"
-        },
-        {
-          "amount": 162,
-          "note": "Kerja sebagai Dokter",
-          "ts": "2026-02-22 12:56 UTC"
-        },
-        {
-          "amount": -5000,
-          "note": "Slots lose x0",
-          "ts": "2026-02-22 12:56 UTC"
-        },
-        {
-          "amount": -5000,
-          "note": "Coin flip: kalah 5,000",
-          "ts": "2026-02-22 12:55 UTC"
-        },
-        {
-          "amount": -105000,
-          "note": "Transfer ke kyo (fee 5000)",
-          "ts": "2026-02-22 12:31 UTC"
-        },
-        {
-          "amount": 300,
-          "note": "Gacha: 300 WowoCash",
-          "ts": "2026-02-22 12:29 UTC"
-        },
-        {
-          "amount": 50,
-          "note": "Gacha: 50 WowoCash",
-          "ts": "2026-02-22 12:29 UTC"
-        },
-        {
-          "amount": 100,
-          "note": "Gacha: 100 WowoCash",
-          "ts": "2026-02-22 12:29 UTC"
-        },
-        {
-          "amount": 50,
-          "note": "Gacha: 50 WowoCash",
-          "ts": "2026-02-22 12:29 UTC"
-        },
-        {
-          "amount": 700,
-          "note": "Gacha: 700 WowoCash",
-          "ts": "2026-02-22 12:29 UTC"
-        },
-        {
-          "amount": 100,
-          "note": "Gacha: 100 WowoCash",
-          "ts": "2026-02-22 12:29 UTC"
-        },
-        {
-          "amount": 50,
-          "note": "Gacha: 50 WowoCash",
-          "ts": "2026-02-22 12:29 UTC"
         }
       ],
       "inventory": {
@@ -181,6 +181,24 @@
             "login": 1,
             "casino_3": 3,
             "work_1": 1
+          },
+          "2026-02-23": {
+            "play_1": 1,
+            "survive_1": 1,
+            "win_1": 1,
+            "vote_3": 3,
+            "login": 0,
+            "casino_3": 2,
+            "work_1": 0
+          },
+          "2026-02-24": {
+            "play_1": 0,
+            "survive_1": 0,
+            "win_1": 0,
+            "vote_3": 0,
+            "login": 0,
+            "casino_3": 0,
+            "work_1": 0
           }
         },
         "weekly": {
@@ -191,15 +209,24 @@
             "w_transfer": 1,
             "w_casino_10": 4,
             "w_work_5": 1
+          },
+          "2026-W09": {
+            "w_play_5": 5,
+            "w_win_3": 1,
+            "w_gacha_3": 0,
+            "w_transfer": 1,
+            "w_casino_10": 2,
+            "w_work_5": 0,
+            "w_rob_3": 0
           }
         }
       },
       "stats": {
-        "games_played": 0,
-        "games_won": 0,
-        "games_survived": 0,
-        "votes_cast": 0,
-        "transfers_sent": 3,
+        "games_played": 6,
+        "games_won": 1,
+        "games_survived": 3,
+        "votes_cast": 7,
+        "transfers_sent": 8,
         "gacha_pulls": 72
       },
       "cooldowns": {
@@ -413,9 +440,80 @@
     "994550049428213841": {
       "id": "994550049428213841",
       "username": "gregory",
-      "balance": 0,
-      "lifetime": 0,
-      "transactions": [],
+      "balance": 2996375,
+      "lifetime": 3001395,
+      "transactions": [
+        {
+          "amount": -5000,
+          "note": "Russian Roulette bet",
+          "ts": "2026-02-23 17:11 UTC"
+        },
+        {
+          "amount": 3000000,
+          "note": "Diterima dari Direktur Utama VOID",
+          "ts": "2026-02-23 17:03 UTC"
+        },
+        {
+          "amount": -10,
+          "note": "Russian Roulette bet",
+          "ts": "2026-02-23 16:53 UTC"
+        },
+        {
+          "amount": -10,
+          "note": "Russian Roulette bet",
+          "ts": "2026-02-23 16:50 UTC"
+        },
+        {
+          "amount": 100,
+          "note": "Misi harian selesai: Survivor",
+          "ts": "2026-02-23 16:37 UTC"
+        },
+        {
+          "amount": 150,
+          "note": "Misi harian selesai: Menang!",
+          "ts": "2026-02-23 16:37 UTC"
+        },
+        {
+          "amount": 500,
+          "note": "Misi mingguan selesai: Petualang Mingguan",
+          "ts": "2026-02-23 16:37 UTC"
+        },
+        {
+          "amount": 275,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:37 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:28 UTC"
+        },
+        {
+          "amount": 60,
+          "note": "Misi harian selesai: Suara Rakyat",
+          "ts": "2026-02-23 16:27 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:24 UTC"
+        },
+        {
+          "amount": 80,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:21 UTC"
+        },
+        {
+          "amount": 80,
+          "note": "Misi harian selesai: Pemain Aktif",
+          "ts": "2026-02-23 16:17 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:17 UTC"
+        }
+      ],
       "inventory": {},
       "daily": {
         "last_claim": null,
@@ -428,14 +526,34 @@
         "lucky_charm": 0
       },
       "missions": {
-        "daily": {},
-        "weekly": {}
+        "daily": {
+          "2026-02-23": {
+            "play_1": 1,
+            "survive_1": 1,
+            "win_1": 1,
+            "vote_3": 3,
+            "login": 0,
+            "casino_3": 0,
+            "work_1": 0
+          }
+        },
+        "weekly": {
+          "2026-W09": {
+            "w_play_5": 5,
+            "w_win_3": 1,
+            "w_gacha_3": 0,
+            "w_transfer": 0,
+            "w_casino_10": 0,
+            "w_work_5": 0,
+            "w_rob_3": 0
+          }
+        }
       },
       "stats": {
-        "games_played": 0,
-        "games_won": 0,
-        "games_survived": 0,
-        "votes_cast": 0,
+        "games_played": 5,
+        "games_won": 1,
+        "games_survived": 1,
+        "votes_cast": 6,
         "transfers_sent": 0,
         "gacha_pulls": 0
       }
@@ -569,6 +687,505 @@
             "w_win_3": 0,
             "w_gacha_3": 0,
             "w_transfer": 0
+          }
+        }
+      },
+      "stats": {
+        "games_played": 0,
+        "games_won": 0,
+        "games_survived": 0,
+        "votes_cast": 0,
+        "transfers_sent": 0,
+        "gacha_pulls": 0
+      }
+    },
+    "1401114263724228731": {
+      "id": "1401114263724228731",
+      "username": "aérii",
+      "balance": 2875,
+      "lifetime": 2895,
+      "transactions": [
+        {
+          "amount": -10,
+          "note": "Russian Roulette bet",
+          "ts": "2026-02-23 16:53 UTC"
+        },
+        {
+          "amount": -10,
+          "note": "Russian Roulette bet",
+          "ts": "2026-02-23 16:50 UTC"
+        },
+        {
+          "amount": 275,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:41 UTC"
+        },
+        {
+          "amount": 700,
+          "note": "Misi mingguan selesai: Juara Mingguan",
+          "ts": "2026-02-23 16:37 UTC"
+        },
+        {
+          "amount": 500,
+          "note": "Misi mingguan selesai: Petualang Mingguan",
+          "ts": "2026-02-23 16:37 UTC"
+        },
+        {
+          "amount": 275,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:37 UTC"
+        },
+        {
+          "amount": 275,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:28 UTC"
+        },
+        {
+          "amount": 60,
+          "note": "Misi harian selesai: Suara Rakyat",
+          "ts": "2026-02-23 16:26 UTC"
+        },
+        {
+          "amount": 80,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:24 UTC"
+        },
+        {
+          "amount": 125,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:21 UTC"
+        },
+        {
+          "amount": 100,
+          "note": "Misi harian selesai: Survivor",
+          "ts": "2026-02-23 16:17 UTC"
+        },
+        {
+          "amount": 150,
+          "note": "Misi harian selesai: Menang!",
+          "ts": "2026-02-23 16:17 UTC"
+        },
+        {
+          "amount": 80,
+          "note": "Misi harian selesai: Pemain Aktif",
+          "ts": "2026-02-23 16:17 UTC"
+        },
+        {
+          "amount": 275,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:17 UTC"
+        }
+      ],
+      "inventory": {},
+      "daily": {
+        "last_claim": null,
+        "streak": 0
+      },
+      "gacha": {
+        "total_pulls": 0,
+        "pity_sr": 0,
+        "pity_ssr": 0,
+        "lucky_charm": 0
+      },
+      "missions": {
+        "daily": {
+          "2026-02-23": {
+            "play_1": 1,
+            "survive_1": 1,
+            "win_1": 1,
+            "vote_3": 3,
+            "login": 0,
+            "casino_3": 0,
+            "work_1": 0
+          }
+        },
+        "weekly": {
+          "2026-W09": {
+            "w_play_5": 5,
+            "w_win_3": 3,
+            "w_gacha_3": 0,
+            "w_transfer": 0,
+            "w_casino_10": 0,
+            "w_work_5": 0,
+            "w_rob_3": 0
+          }
+        }
+      },
+      "stats": {
+        "games_played": 6,
+        "games_won": 4,
+        "games_survived": 5,
+        "votes_cast": 4,
+        "transfers_sent": 0,
+        "gacha_pulls": 0
+      }
+    },
+    "1163833550227902554": {
+      "id": "1163833550227902554",
+      "username": "kao solo sisen",
+      "balance": 997800,
+      "lifetime": 1002820,
+      "transactions": [
+        {
+          "amount": -5000,
+          "note": "Russian Roulette bet",
+          "ts": "2026-02-23 17:11 UTC"
+        },
+        {
+          "amount": -10,
+          "note": "Russian Roulette bet",
+          "ts": "2026-02-23 16:53 UTC"
+        },
+        {
+          "amount": -10,
+          "note": "Russian Roulette bet",
+          "ts": "2026-02-23 16:50 UTC"
+        },
+        {
+          "amount": 1000000,
+          "note": "Diterima dari Direktur Utama VOID",
+          "ts": "2026-02-23 16:50 UTC"
+        },
+        {
+          "amount": 125,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:41 UTC"
+        },
+        {
+          "amount": 500,
+          "note": "Misi mingguan selesai: Petualang Mingguan",
+          "ts": "2026-02-23 16:37 UTC"
+        },
+        {
+          "amount": 275,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:37 UTC"
+        },
+        {
+          "amount": 700,
+          "note": "Misi mingguan selesai: Juara Mingguan",
+          "ts": "2026-02-23 16:28 UTC"
+        },
+        {
+          "amount": 200,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:28 UTC"
+        },
+        {
+          "amount": 60,
+          "note": "Misi harian selesai: Suara Rakyat",
+          "ts": "2026-02-23 16:26 UTC"
+        },
+        {
+          "amount": 275,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:24 UTC"
+        },
+        {
+          "amount": 100,
+          "note": "Misi harian selesai: Survivor",
+          "ts": "2026-02-23 16:21 UTC"
+        },
+        {
+          "amount": 150,
+          "note": "Misi harian selesai: Menang!",
+          "ts": "2026-02-23 16:21 UTC"
+        },
+        {
+          "amount": 275,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:21 UTC"
+        },
+        {
+          "amount": 80,
+          "note": "Misi harian selesai: Pemain Aktif",
+          "ts": "2026-02-23 16:17 UTC"
+        },
+        {
+          "amount": 80,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:17 UTC"
+        }
+      ],
+      "inventory": {},
+      "daily": {
+        "last_claim": null,
+        "streak": 0
+      },
+      "gacha": {
+        "total_pulls": 0,
+        "pity_sr": 0,
+        "pity_ssr": 0,
+        "lucky_charm": 0
+      },
+      "missions": {
+        "daily": {
+          "2026-02-23": {
+            "play_1": 1,
+            "survive_1": 1,
+            "win_1": 1,
+            "vote_3": 3,
+            "login": 0,
+            "casino_3": 0,
+            "work_1": 0
+          }
+        },
+        "weekly": {
+          "2026-W09": {
+            "w_play_5": 5,
+            "w_win_3": 3,
+            "w_gacha_3": 0,
+            "w_transfer": 0,
+            "w_casino_10": 0,
+            "w_work_5": 0,
+            "w_rob_3": 0
+          }
+        }
+      },
+      "stats": {
+        "games_played": 6,
+        "games_won": 4,
+        "games_survived": 4,
+        "votes_cast": 4,
+        "transfers_sent": 0,
+        "gacha_pulls": 0
+      }
+    },
+    "1285622042833584211": {
+      "id": "1285622042833584211",
+      "username": "aevlynn",
+      "balance": 997405,
+      "lifetime": 1002425,
+      "transactions": [
+        {
+          "amount": -5000,
+          "note": "Russian Roulette bet",
+          "ts": "2026-02-23 17:11 UTC"
+        },
+        {
+          "amount": 60,
+          "note": "Russian Roulette menang (pot 60)",
+          "ts": "2026-02-23 17:02 UTC"
+        },
+        {
+          "amount": -10,
+          "note": "Russian Roulette bet",
+          "ts": "2026-02-23 16:53 UTC"
+        },
+        {
+          "amount": -10,
+          "note": "Russian Roulette bet",
+          "ts": "2026-02-23 16:50 UTC"
+        },
+        {
+          "amount": 500,
+          "note": "Misi mingguan selesai: Petualang Mingguan",
+          "ts": "2026-02-23 16:41 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:41 UTC"
+        },
+        {
+          "amount": 700,
+          "note": "Misi mingguan selesai: Juara Mingguan",
+          "ts": "2026-02-23 16:37 UTC"
+        },
+        {
+          "amount": 230,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:37 UTC"
+        },
+        {
+          "amount": 1000000,
+          "note": "Diterima dari Direktur Utama VOID",
+          "ts": "2026-02-23 16:30 UTC"
+        },
+        {
+          "amount": 230,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:28 UTC"
+        },
+        {
+          "amount": 100,
+          "note": "Misi harian selesai: Survivor",
+          "ts": "2026-02-23 16:24 UTC"
+        },
+        {
+          "amount": 150,
+          "note": "Misi harian selesai: Menang!",
+          "ts": "2026-02-23 16:24 UTC"
+        },
+        {
+          "amount": 275,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:24 UTC"
+        },
+        {
+          "amount": 80,
+          "note": "Misi harian selesai: Pemain Aktif",
+          "ts": "2026-02-23 16:21 UTC"
+        },
+        {
+          "amount": 50,
+          "note": "Game reward",
+          "ts": "2026-02-23 16:21 UTC"
+        }
+      ],
+      "inventory": {},
+      "daily": {
+        "last_claim": null,
+        "streak": 0
+      },
+      "gacha": {
+        "total_pulls": 0,
+        "pity_sr": 0,
+        "pity_ssr": 0,
+        "lucky_charm": 0
+      },
+      "missions": {
+        "daily": {
+          "2026-02-23": {
+            "play_1": 1,
+            "survive_1": 1,
+            "win_1": 1,
+            "vote_3": 2,
+            "login": 0,
+            "casino_3": 0,
+            "work_1": 0
+          },
+          "2026-02-24": {
+            "play_1": 0,
+            "survive_1": 0,
+            "win_1": 0,
+            "vote_3": 0,
+            "login": 0,
+            "casino_3": 1,
+            "work_1": 0
+          }
+        },
+        "weekly": {
+          "2026-W09": {
+            "w_play_5": 5,
+            "w_win_3": 3,
+            "w_gacha_3": 0,
+            "w_transfer": 0,
+            "w_casino_10": 1,
+            "w_work_5": 0,
+            "w_rob_3": 0
+          }
+        }
+      },
+      "stats": {
+        "games_played": 5,
+        "games_won": 3,
+        "games_survived": 1,
+        "votes_cast": 2,
+        "transfers_sent": 0,
+        "gacha_pulls": 0
+      }
+    },
+    "721520056944689202": {
+      "id": "721520056944689202",
+      "username": "Vanjii",
+      "balance": 999980,
+      "lifetime": 1000000,
+      "transactions": [
+        {
+          "amount": -10,
+          "note": "Russian Roulette bet",
+          "ts": "2026-02-23 16:53 UTC"
+        },
+        {
+          "amount": -10,
+          "note": "Russian Roulette bet",
+          "ts": "2026-02-23 16:50 UTC"
+        },
+        {
+          "amount": 1000000,
+          "note": "Diterima dari Direktur Utama VOID",
+          "ts": "2026-02-23 16:50 UTC"
+        }
+      ],
+      "inventory": {},
+      "daily": {
+        "last_claim": null,
+        "streak": 0
+      },
+      "gacha": {
+        "total_pulls": 0,
+        "pity_sr": 0,
+        "pity_ssr": 0,
+        "lucky_charm": 0
+      },
+      "missions": {
+        "daily": {},
+        "weekly": {}
+      },
+      "stats": {
+        "games_played": 0,
+        "games_won": 0,
+        "games_survived": 0,
+        "votes_cast": 0,
+        "transfers_sent": 0,
+        "gacha_pulls": 0
+      }
+    },
+    "1430857931649192038": {
+      "id": "1430857931649192038",
+      "username": "..rαrα :‹",
+      "balance": 1020000,
+      "lifetime": 1025000,
+      "transactions": [
+        {
+          "amount": 25000,
+          "note": "Russian Roulette menang (pot 25,000)",
+          "ts": "2026-02-23 17:28 UTC"
+        },
+        {
+          "amount": -5000,
+          "note": "Russian Roulette bet",
+          "ts": "2026-02-23 17:11 UTC"
+        },
+        {
+          "amount": 1000000,
+          "note": "Diterima dari Direktur Utama VOID",
+          "ts": "2026-02-23 17:09 UTC"
+        }
+      ],
+      "inventory": {},
+      "daily": {
+        "last_claim": null,
+        "streak": 0
+      },
+      "gacha": {
+        "total_pulls": 0,
+        "pity_sr": 0,
+        "pity_ssr": 0,
+        "lucky_charm": 0
+      },
+      "missions": {
+        "daily": {
+          "2026-02-24": {
+            "play_1": 0,
+            "survive_1": 0,
+            "win_1": 0,
+            "vote_3": 0,
+            "login": 0,
+            "casino_3": 1,
+            "work_1": 0
+          }
+        },
+        "weekly": {
+          "2026-W09": {
+            "w_play_5": 0,
+            "w_win_3": 0,
+            "w_gacha_3": 0,
+            "w_transfer": 0,
+            "w_casino_10": 1,
+            "w_work_5": 0,
+            "w_rob_3": 0
           }
         }
       },

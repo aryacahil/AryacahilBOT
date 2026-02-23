@@ -5,8 +5,8 @@ from enum import Enum
 
 # ─── Constants ────────────────────────────────────────────────────────────────
 
-NIGHT_ACTION_TIMEOUT = 40  # seconds
-DAY_DISCUSSION_TIME  = 60  # seconds
+NIGHT_ACTION_TIMEOUT = 30  # seconds
+DAY_DISCUSSION_TIME  = 30  # seconds
 VOTE_TIMEOUT         = 30  # seconds
 
 # ─── Enums ────────────────────────────────────────────────────────────────────
@@ -121,60 +121,84 @@ ROLE_INFO = {
 
 # ─── Role assignment table ────────────────────────────────────────────────────
 
+# ─── Special role pool (dipilih acak tiap game) ──────────────────────────────
+#
+# Setiap slot "special" dipilih secara acak dari pool yang sesuai.
+# ALWAYS_INCLUDE = wajib ada di semua game.
+# POOL_SUPPORT   = role pendukung Villager (dipilih acak N dari pool ini).
+# POOL_CHAOS     = role yang bikin game lebih chaotic (dipilih acak).
+# Dengan begitu game 5 orang bisa dapat kombinasi berbeda tiap sesi!
+
+_POOL_SUPPORT = [Role.DOCTOR, Role.HUNTER, Role.BODYGUARD, Role.WITCH]
+_POOL_CHAOS   = [Role.CURSED, Role.JESTER]
+
+
 def build_role_list(player_count: int) -> list[Role]:
-    """Return a balanced role list for the given player count."""
-    # Base: wolves scale ~25%, specials added by bracket
+    """
+    Pilih role secara acak dari pool tiap game.
+    Seer selalu ada. Wolf count ~25% (min 1). Sisa slot diisi acak dari pool,
+    sisanya Villager — sehingga tiap game terasa berbeda.
+    """
+    # ── Jumlah wolf ───────────────────────────────────────────────────────────
     if player_count <= 4:
-        # 1W 1S 1D 1V
-        return [Role.WEREWOLF, Role.SEER, Role.DOCTOR, Role.VILLAGER]
+        wolf_count = 1
+    elif player_count <= 7:
+        wolf_count = 1 if player_count <= 5 else 2
+    elif player_count <= 10:
+        wolf_count = 2
+    else:
+        wolf_count = max(2, player_count // 4)
 
-    if player_count == 5:
-        # 1W 1S 1D 1C 1V
-        return [Role.WEREWOLF, Role.SEER, Role.DOCTOR, Role.CURSED, Role.VILLAGER]
+    # ── Slot special yang tersedia setelah wolf + Seer ────────────────────────
+    base_count    = wolf_count + 1          # wolves + Seer
+    special_slots = player_count - base_count  # berapa sisa slot buat special/villager
 
-    if player_count == 6:
-        # 2W 1S 1D 1J 1V
-        return [Role.WEREWOLF, Role.WEREWOLF, Role.SEER, Role.DOCTOR,
-                Role.JESTER, Role.VILLAGER]
+    # ── Berapa slot support & chaos ───────────────────────────────────────────
+    # Skala: makin banyak pemain makin banyak role unik
+    if player_count <= 5:
+        n_support = 1   # 1 random support
+        n_chaos   = random.randint(0, 1)
+    elif player_count <= 7:
+        n_support = 2
+        n_chaos   = 1
+    elif player_count <= 9:
+        n_support = random.randint(2, 3)
+        n_chaos   = random.randint(1, 2)
+    elif player_count <= 11:
+        n_support = random.randint(3, 4)
+        n_chaos   = 2
+    else:
+        n_support = min(4, player_count // 3)
+        n_chaos   = 2
 
-    if player_count == 7:
-        # 2W 1S 1D 1BG 1C 1V
-        return [Role.WEREWOLF, Role.WEREWOLF, Role.SEER, Role.DOCTOR,
-                Role.BODYGUARD, Role.CURSED, Role.VILLAGER]
+    # Jangan melebihi slot yang tersedia
+    total_special = n_support + n_chaos
+    if total_special > special_slots:
+        # Kurangi proporsional
+        excess    = total_special - special_slots
+        n_chaos   = max(0, n_chaos   - excess)
+        excess    = max(0, excess - (n_chaos + 1))
+        n_support = max(0, n_support - excess)
 
-    if player_count == 8:
-        # 2W 1S 1D 1H 1BG 1J 1V
-        return [Role.WEREWOLF, Role.WEREWOLF, Role.SEER, Role.DOCTOR,
-                Role.HUNTER, Role.BODYGUARD, Role.JESTER, Role.VILLAGER]
+    # ── Pilih role acak dari pool ─────────────────────────────────────────────
+    support_pool = _POOL_SUPPORT.copy()
+    chaos_pool   = _POOL_CHAOS.copy()
+    random.shuffle(support_pool)
+    random.shuffle(chaos_pool)
 
-    if player_count == 9:
-        # 2W 1S 1D 1H 1BG 1C 1J 1V
-        return [Role.WEREWOLF, Role.WEREWOLF, Role.SEER, Role.DOCTOR,
-                Role.HUNTER, Role.BODYGUARD, Role.CURSED, Role.JESTER,
-                Role.VILLAGER]
+    picked_support = support_pool[:n_support]
+    picked_chaos   = chaos_pool[:n_chaos]
 
-    if player_count == 10:
-        # 3W 1S 1D 1H 1W(itch) 1BG 1C 1J
-        return [Role.WEREWOLF, Role.WEREWOLF, Role.WEREWOLF,
-                Role.SEER, Role.DOCTOR, Role.HUNTER, Role.WITCH,
-                Role.BODYGUARD, Role.CURSED, Role.JESTER]
+    # ── Rakit final list ──────────────────────────────────────────────────────
+    roles  = [Role.WEREWOLF] * wolf_count
+    roles += [Role.SEER]
+    roles += picked_support
+    roles += picked_chaos
 
-    if player_count <= 12:
-        # 3W 1S 1D 1H 1W(itch) 1BG 1C 1J + Villagers
-        base = [Role.WEREWOLF, Role.WEREWOLF, Role.WEREWOLF,
-                Role.SEER, Role.DOCTOR, Role.HUNTER, Role.WITCH,
-                Role.BODYGUARD, Role.CURSED, Role.JESTER]
-        while len(base) < player_count:
-            base.append(Role.VILLAGER)
-        return base
-
-    # 13+: scale wolves ~25%, keep all specials, fill Villagers
-    wolf_count = max(3, player_count // 4)
-    roles = [Role.WEREWOLF] * wolf_count
-    roles += [Role.SEER, Role.DOCTOR, Role.HUNTER, Role.WITCH,
-              Role.BODYGUARD, Role.CURSED, Role.JESTER]
+    # Isi sisa dengan Villager
     while len(roles) < player_count:
         roles.append(Role.VILLAGER)
+
     return roles
 
 # ─── Game class ───────────────────────────────────────────────────────────────
